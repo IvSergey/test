@@ -1,0 +1,25 @@
+footer.footer
+  .footer.container
+    .contacts
+      h2.contacts__title Контакты:
+      ul.contacts__list
+        li.contacts__item
+          p.contacts__name Телефон:
+          a.contacts__text(href="tel:+78121234567") +7 (812) 123-45-67
+        li.contacts__item
+          p.contacts__name E-mail:
+          a.contacts__text(href="mailto:mail@site.ru") mail@site.ru
+        li.contacts__item
+          p.contacts__name Skype:
+          a.contacts__text(href="skype:skype_for_example") skype_for_example
+        li.contacts__item
+          p.contacts__name Адрес:
+          a.contacts__text(href="#") 23456, г. Москва, ул. Строителей, д. 3, кв. 12
+    form.form
+      h2.form__title Напишите нам:
+      .form__content
+        .form__block
+          input(type='text' name='e-mail' placeholder='E-mail' required).form__content-input
+        .form__block
+          textarea(name='message' placeholder='Введите свое сообщение...' required).form__content-textarea
+        button(type='submit').form-btn__link Отправить
